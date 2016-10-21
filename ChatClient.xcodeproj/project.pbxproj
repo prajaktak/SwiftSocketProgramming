@@ -78,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F94367341D9FB97300B4B09F /* ChatClient */,
+				F94367631D9FB99000B4B09F /* Frameworks */,
 				F94367491D9FB97300B4B09F /* ChatClientTests */,
 				F94367541D9FB97300B4B09F /* ChatClientUITests */,
 				F94367331D9FB97300B4B09F /* Products */,
@@ -123,6 +124,13 @@
 				F94367571D9FB97300B4B09F /* Info.plist */,
 			);
 			path = ChatClientUITests;
+			sourceTree = "<group>";
+		};
+		F94367631D9FB99000B4B09F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +201,7 @@
 				TargetAttributes = {
 					F94367311D9FB97300B4B09F = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6AC44Z6PNA;
 						ProvisioningStyle = Automatic;
 					};
 					F94367451D9FB97300B4B09F = {
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = ChatClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PK.ChatClient;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = ChatClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PK.ChatClient;
